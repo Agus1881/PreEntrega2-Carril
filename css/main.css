@@ -1,0 +1,119 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos del header */
+
+.menu-fondo {
+    background-color: orange;
+}
+
+.div-botones a:hover {
+    background-color: rgb(255, 208, 0);
+}
+
+
+
+/* estilos del main */
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+main p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+main div img {
+    border: 3px solid;
+    border-radius: 20px;
+
+
+}
+
+/* estilos del footer */
+
+footer {
+    background-color: orange;
+    font-size: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+
+/* estilos extras */
+
+.productos1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.boton-enviar {
+    margin-top: 20px;
+}
+
+.bottom-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* media queries mobile */
+
+@media screen and (max-width:576px) {
+
+    main div img {
+        height: 35vh;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    footer h2 {
+        font-size: 16px;
+    }
+
+    footer div img {
+        height: 32px;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:577px) {
+
+    .bottom-footer-accesorios {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+
+
+}
