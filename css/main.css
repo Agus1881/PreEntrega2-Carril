@@ -135,7 +135,7 @@ legend {
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:800px){
 
     .bottom-footer-contacto {
         position: static;
@@ -150,7 +150,7 @@ legend {
 
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:800px){
 
     .bottom-footer-contacto {
         position: absolute;
@@ -160,6 +160,15 @@ legend {
 
 
     .bottom-footer-about {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px){
+    
+    .bottom-footer-contacto {
         position: absolute;
         bottom: 0;
         width: 100%;
