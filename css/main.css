@@ -41,6 +41,7 @@ main div img {
 
 }
 
+
 /* estilos del footer */
 
 footer {
@@ -54,6 +55,9 @@ footer {
 
 }
 
+footer h2 {
+    font-size: 24px;
+}
 
 
 /* estilos extras */
@@ -73,15 +77,15 @@ legend {
     margin-top: 20px;
 }
 
-.bottom-footer {
-    position: absolute;
+.bottom-footer-contacto {
+    position: static;
     bottom: 0;
     width: 100%;
 }
 
 /* media queries mobile */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
 
     main div img {
         height: 35vh;
@@ -103,9 +107,13 @@ legend {
         display: none;
     }
 
+
+
 }
 
-@media screen and (min-width:577px) {
+/* media queries ajustando footer en mobile y desktop */
+
+@media screen and (max-width:200px) {
 
     .bottom-footer-accesorios {
         position: absolute;
@@ -114,6 +122,64 @@ legend {
     }
 
 
+}
+
+@media screen and (min-width:850px) {
+
+    .bottom-footer-accesorios {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+
+    .bottom-footer-contacto {
+        position: static;
+        width: 100%;
+    }
 
 
+    .bottom-footer-about {
+        position: static;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+
+    .bottom-footer-contacto {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+    .bottom-footer-about {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    
+    .bottom-footer-about{
+        position: static;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px){
+    
+    .bottom-footer-about{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
