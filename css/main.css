@@ -176,7 +176,7 @@ legend {
     }
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:400px){
     
     .bottom-footer-contacto {
         position: static;
